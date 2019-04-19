@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ApiResource()
@@ -20,6 +21,7 @@ class Task
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank()
      */
     private $name;
 
@@ -31,7 +33,7 @@ class Task
     /**
      * @ORM\Column(type="boolean")
      */
-    private $completed;
+    private $completed = false;
 
     public function getId(): ?int
     {
