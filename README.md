@@ -2,8 +2,11 @@
 
 ## Build it Together
 
-- [x] Codementor.io
-- [x] <http://collabedit.com/dsac3>
+- [x] <https://www.meetup.com/madisonphp/events/254487070/>
+- [x] [Codementor.io](https://codementor.io)
+- [x] <https://codementor.io/simensen>
+- [x] <https://astrocasts.com>
+- [x] <http://collabedit.com/>
 - [ ] Model
   - [ ] Add a Task
   - [ ] Deadline
