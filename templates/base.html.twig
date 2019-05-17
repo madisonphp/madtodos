@@ -7,11 +7,12 @@
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
     </head>
-    <body>
-        <div style="max-width: 800px; margin-left: auto; margin-right: auto;">
+    <body class="bg-gray-200">
+        <div>
             {% block body %}{% endblock %}
             {% block javascripts %}
                 {{ encore_entry_script_tags('app') }}
+                {{ encore_entry_script_tags('admin') }}
             {% endblock %}
         </div>
     </body>
