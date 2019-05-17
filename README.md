@@ -27,7 +27,7 @@
     - [x] Completed State
     - [x] Name
     - [ ] Deadline
-    - [ ] CRUD
+    - [x] CRUD
     - [ ] Parent / Child Tasks
     - [x] Description
     - [ ] Categories
